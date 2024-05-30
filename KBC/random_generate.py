@@ -1,8 +1,6 @@
-def check():
-    pass
+import random
 
-
-'''def ran(qlen,random_num_list):
+def random_num (qlen,random_num_list):
     rnm1 =  random_num_list
     stmt = True 
     while stmt:
@@ -11,4 +9,4 @@ def check():
              continue
          else :
              stmt = False
-             return r  '''
+             return r 

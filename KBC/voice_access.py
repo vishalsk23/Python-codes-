@@ -1,11 +1,7 @@
 import pyttsx3
 
+def say (speech):
+    voice  = speech 
+    pyttsx3.speak(voice)
 
-try :
-    
-    def speak_access(speech):
-        voice  = speech 
-        pyttsx3.speak(voice)
-except ModuleNotFoundError :
-    print("You Haven't install module pyttsx3 install it  ")
     
